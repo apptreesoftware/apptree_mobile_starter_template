@@ -1,0 +1,18 @@
+name: apptree_mobile_starter_template
+description: An AppTree Mobile application
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ^3.7.2
+
+# Add regular dependencies here.
+dependencies:
+  # path: ^1.8.0
+  apptree_dart_sdk:
+    git:
+      url: https://github.com/apptreesoftware/apptree_dart_sdk.git
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.24.0
