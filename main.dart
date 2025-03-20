@@ -9,5 +9,9 @@ void main() {
     myTasksRecordList,
     menuItem: MenuItem(title: 'My Tasks', icon: 'dashboard', defaultItem: false, order: 1),
   );
+  app.addFeature(
+    createTaskForm,
+    menuItem: MenuItem(title: 'Create Task', icon: 'add', defaultItem: false, order: 2),
+  );
   app.initialize();
 }
