@@ -1,5 +1,5 @@
 import 'package:apptree_dart_sdk/apptree.dart';
-import 'endpoints.dart';
+import '../endpoints/workers_list_endpoint.dart';
 
 class Task extends Record {
   @PkField()
